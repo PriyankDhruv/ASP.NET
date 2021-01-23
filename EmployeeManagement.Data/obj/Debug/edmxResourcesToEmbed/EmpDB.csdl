@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="DepartmentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Employeemaster">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsApporved" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="TotalCnt" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeName" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="MailID" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="DOJ" Type="DateTime" Precision="3" />
+    <Property Name="Phone" Type="Int64" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Int64" />
+    <Property Name="Age" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="EmpEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Employeemasters" EntityType="Self.Employeemaster" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <FunctionImport Name="Usp_Login" ReturnType="Collection(Model.Usp_Login_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Usp_Login_Result">
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ContactNo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Address" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="IsApporved" Nullable="false" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,6 @@
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Debug\EmployeeManagement.Models.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Debug\EmployeeManagement.Models.pdb
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Debug\EmployeeManagement.Models.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Debug\EmployeeManagement.Models.pdb
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Debug\EmployeeManagement.Models.csprojAssemblyReference.cache
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Debug\EmployeeManagement.Models.csproj.CoreCompileInputs.cache

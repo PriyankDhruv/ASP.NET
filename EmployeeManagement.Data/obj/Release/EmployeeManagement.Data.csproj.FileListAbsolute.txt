@@ -1,0 +1,10 @@
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EmployeeManagement.Data.dll.config
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EmployeeManagement.Data.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EmployeeManagement.Data.pdb
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EntityFramework.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EntityFramework.xml
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\obj\Release\EmployeeManagement.Data.csprojResolveAssemblyReference.cache
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\obj\Release\EmployeeManagement.Data.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Data\obj\Release\EmployeeManagement.Data.pdb

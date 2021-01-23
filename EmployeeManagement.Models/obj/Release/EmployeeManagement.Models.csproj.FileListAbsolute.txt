@@ -1,0 +1,10 @@
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EmployeeManagement.Models.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EmployeeManagement.Models.pdb
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EmployeeManagement.Data.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EntityFramework.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EmployeeManagement.Data.pdb
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EmployeeManagement.Data.dll.config
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\bin\Release\EntityFramework.xml
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Release\EmployeeManagement.Models.csprojResolveAssemblyReference.cache
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Release\EmployeeManagement.Models.dll
+D:\.NET Assignment\EmployeeManagement\EmployeeManagement.Models\obj\Release\EmployeeManagement.Models.pdb
